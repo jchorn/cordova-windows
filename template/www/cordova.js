@@ -19,6 +19,9 @@
  under the License.
 */
 ;(function() {
+if (window.cordova) {
+    return; // protect against accidental multiple inclusion
+}
 var PLATFORM_VERSION_BUILD_LABEL = '3.9.0-dev';
 // file: src/scripts/require.js
 
